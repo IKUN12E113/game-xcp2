@@ -27,7 +27,7 @@ background_rect = background.get_rect()
 xcp_rect.center = (screen_width // 2, screen_height - xcp_rect.height // 2)
 
 # 定义初始血量
-health = 114514
+health = 10
 # 设置字体，加载支持中文的字体文件
 font_path = 'simsun.ttf'  # 请确保这个路径是正确的
 font = pygame.font.Font(font_path, 74)
